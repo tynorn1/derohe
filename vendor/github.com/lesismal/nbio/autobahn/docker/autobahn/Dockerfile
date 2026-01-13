@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.23.2
 
 RUN apk add --no-cache python2 python2-dev gcc build-base musl-dev libffi-dev openssl-dev && \
 	python -m ensurepip && \
